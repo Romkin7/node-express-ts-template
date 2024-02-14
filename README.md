@@ -1,2 +1,3 @@
 # node-express-ts-template
-NodeJS HTTP server template, that is built on ExpressJS and TypeScript. Template includes express-session, cookies, csrf tokens and basic authentication setup.
+
+Node.js HTTP server template built on Express.js and TypeScript. The template includes features such as express-session, cookies, CSRF tokens, and a basic authentication and authorization setup.
