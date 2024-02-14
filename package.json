@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/Romkin7/node-express-ts-template/issues"
   },
-  "homepage": "https://github.com/Romkin7/node-express-ts-template#readme"
+  "homepage": "https://github.com/Romkin7/node-express-ts-template#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
 }
