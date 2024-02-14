@@ -1,0 +1,27 @@
+{
+  "name": "express-ts-template",
+  "version": "1.0.0",
+  "description": "NodeJS HTTP server template, that is built on ExpressJS and TypeScript. Template includes express-session, cookies, csrf tokens and basic authentication and authorisation setup.",
+  "main": "build/server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Romkin7/node-express-ts-template.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "TypeScript",
+    "CSRF",
+    "Cookie",
+    "Session"
+  ],
+  "author": "Roman Tuomisto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Romkin7/node-express-ts-template/issues"
+  },
+  "homepage": "https://github.com/Romkin7/node-express-ts-template#readme"
+}
