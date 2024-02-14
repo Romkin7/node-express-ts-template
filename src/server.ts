@@ -7,4 +7,4 @@ const PORT = app.get('port');
 const IP = app.get('ip');
 app.listen(PORT, IP, () => {
     console.info(`Server is running on port ${PORT} and ip ${IP}...`);
-})
+});

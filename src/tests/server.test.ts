@@ -1,7 +1,7 @@
 import request from 'supertest';
 import { Server, IncomingMessage, ServerResponse } from 'http';
 import app from '../app';
-import {config} from 'dotenv';
+import { config } from 'dotenv';
 
 config();
 
