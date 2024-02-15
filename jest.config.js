@@ -3,4 +3,5 @@ module.exports = {
     preset: 'ts-jest',
     testEnvironment: 'node',
     coverageReporters: ['text', 'lcov'],
+    setupFiles: ['<rootDir>/setupTests.js'],
 };

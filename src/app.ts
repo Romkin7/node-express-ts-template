@@ -28,7 +28,9 @@ app.use(
         secret: SESSION_SECRET,
         resave: false,
         saveUninitialized: true,
-        store: MongoStore.create({ mongoUrl: process.env.DB_URI }),
+        store: process?.env?.DB_URI
+            ? MongoStore.create({ mongoUrl: process.env.DB_URI })
+            : undefined,
         cookie,
     }),
 );
