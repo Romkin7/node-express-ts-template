@@ -57,6 +57,7 @@
         "dotenv": "^16.4.4",
         "express": "^4.18.2",
         "express-session": "^1.18.0",
+        "jsonwebtoken": "^9.0.2",
         "mongoose": "^8.1.2",
         "morgan": "^1.10.0",
         "secure-csrf": "^1.0.0"
